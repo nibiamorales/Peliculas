@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Catalogo
+comment0.text=\r\n\ Clase\ que\ gestiona\ una\ colecci\u00F3n\ de\ pel\u00EDculas.\r\n
+comment1.params=
+comment1.target=Catalogo()
+comment2.params=pelicula
+comment2.target=void\ agregarPelicula(Pelicula)
+comment2.text=A\u00F1ade\ una\ pel\u00EDcula\ al\ cat\u00E1logo.\ Ignora\ nulos.
+comment3.params=
+comment3.target=java.lang.String\ getPeliculas()
+comment3.text=Regresa\ la\ informaci\u00F3n\ de\ todas\ las\ pel\u00EDculas.
+comment4.params=titulo
+comment4.target=Pelicula\ buscarPeliculaPorTitulo(java.lang.String)
+comment4.text=\r\n\ Busca\ por\ t\u00EDtulo\ (ignora\ may\u00FAsculas/min\u00FAsculas)\ y\ muestra\ su\ info\ si\ existe.\r\n\ @return\ la\ referencia\ a\ la\ Pelicula\ encontrada\ o\ null\ si\ no\ existe.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

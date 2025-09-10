@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Pelicula
+comment0.text=\r\n\ Clase\ que\ modela\ una\ pel\u00EDcula\ del\ cat\u00E1logo.\r\n\ Autor\:\ Nibia\ Morales\r\n
+comment1.params=titulo\ director\ anioEstreno\ genero\ duracion
+comment1.target=Pelicula(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getInformacion()
+comment3.params=
+comment3.target=boolean\ esClasica()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=java.lang.String\ getTitulo()
+numComments=6
