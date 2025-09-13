@@ -1,8 +1,5 @@
 import java.util.ArrayList;
 
-/**
- * Clase que gestiona una colección de películas.
- */
 public class Catalogo {
     private final ArrayList<Pelicula> peliculas;
 
@@ -17,8 +14,7 @@ public class Catalogo {
         }
     }
 
-    /** Regresa la información de todas las películas. */
-    public String getPeliculas() {
+ public String getPeliculas() {
         if (peliculas.isEmpty()) {
             return "No hay películas en el catálogo.\n";
         }
@@ -31,10 +27,7 @@ public class Catalogo {
         return sb.toString();
     }
 
-    /**
-     * Busca por título (ignora mayúsculas/minúsculas) y muestra su info si existe.
-     * @return la referencia a la Pelicula encontrada o null si no existe.
-     */
+
     public Pelicula buscarPeliculaPorTitulo(String titulo) {
         if (titulo == null || titulo.trim().isEmpty()) {
             System.out.println("Título inválido.");
